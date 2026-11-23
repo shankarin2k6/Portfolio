@@ -31,7 +31,7 @@ const achievementsData = [
       { label: 'Organized by', value: 'Kongu Engineering College' },
     ],
     tags: ['Paper Presentation', 'Technical Symposium', 'KEC'],
-    linkedInUrl: 'https://www.linkedin.com/posts/shankari-n-30a6762b5_ai-machinelearning-paperpresentation-share-7306622282397876224-Q1rE/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEu9OToBgcPk-tE_NXPExDZZQmQaWFPkQgw',
+    linkedInUrl: '',
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const achievementsData = [
       { label: 'Venue', value: 'Sri Ramakrishna Engineering College' },
     ],
     tags: ['Paper Presentation', 'National Level', 'Symposium'],
-    linkedInUrl: 'https://www.linkedin.com/posts/shankari-n-30a6762b5_ai-edtech-hackathon-share-7311628570848620544-RdVr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEu9OToBgcPk-tE_NXPExDZZQmQaWFPkQgw',
+    linkedInUrl: '',
   },
   {
     id: 3,
@@ -66,7 +66,7 @@ const achievementsData = [
       'The system identifies nearby objects from a webcam feed and gives audio feedback.',
     ],
     tags: ['Python', 'OpenCV', 'MobileNet-SSD', 'Computer Vision'],
-    linkedInUrl: 'https://www.linkedin.com/posts/shankari-n-30a6762b5_grateful-achievement-aiforgood-ugcPost-7301608984623382528-ZJZq/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEu9OToBgcPk-tE_NXPExDZZQmQaWFPkQgw',
+    linkedInUrl: '',
   },
   {
     id: 4,
@@ -87,7 +87,7 @@ const achievementsData = [
       'Fixed API and file-upload issues under a strict deadline.',
     ],
     tags: ['Flask', 'Bootstrap', 'Gemini API', 'SQLite'],
-    linkedInUrl: 'https://www.linkedin.com/posts/shankari-n-30a6762b5_hackathon-ai-edtech-share-7311627021304881152-F07T/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEu9OToBgcPk-tE_NXPExDZZQmQaWFPkQgw',
+    linkedInUrl: '',
   },
   {
     id: 5,
@@ -104,12 +104,12 @@ const achievementsData = [
       { label: 'Organized by', value: 'Dept. of AI & EEE, AI Coding Club & AI Association, KEC' },
     ],
     details: [
-      '24 hours of non-stop collaboration, coding and innovation.(Mentioned in honours and awards section of the linkedIn)',
+      '24 hours of non-stop collaboration, coding and innovation.',
       'Hosted with KEC Forum, ATTI and industry partners Birdscale, PPunchbiz, MK Automations, MAS and Turnon.',
       'Guided by Faculty Coordinator Dr. K. Logeswaran and HoD/AI Dr. R. R. Rajalaxmi.',
     ],
     tags: ['AI', 'Problem Solving', 'Teamwork', 'Sand Mining Detection'],
-    linkedInUrl: 'https://www.linkedin.com/in/shankari-n-30a6762b5/',
+    linkedInUrl: '',
   },
 ];
 
@@ -485,7 +485,7 @@ const Achievements = () => {
 
         <div
           style={{ height: "500px", width: "100%", maxWidth: "550px", position: "relative" }}
-          className="md:w-1/2"
+          className="hidden md:block md:w-1/2"
         >
           <CardSwap
             cardDistance={60}
